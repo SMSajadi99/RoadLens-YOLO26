@@ -1,0 +1,39 @@
+{
+  "created_utc": "2026-11-19T15:31:55.179719+00:00",
+  "source": "/content/bdd100k-detection-1",
+  "destination": "/content/RoadLens-YOLO26",
+  "dataset": "BDD100K Roboflow version 1",
+  "splits": {
+    "train": {
+      "images": 66282,
+      "labels": 66282
+    },
+    "valid": {
+      "images": 9582,
+      "labels": 9582
+    },
+    "test": {
+      "images": 3993,
+      "labels": 3993
+    }
+  },
+  "classes": {
+    "0": "bike",
+    "1": "bus",
+    "2": "car",
+    "3": "motor",
+    "4": "person",
+    "5": "rider",
+    "6": "traffic light",
+    "7": "traffic sign",
+    "8": "train",
+    "9": "truck"
+  },
+  "copied_files": 159717,
+  "copied_bytes": 3983396502,
+  "copy_verification": "SHA-256 matched for every copied file",
+  "annotation_policy": "Exact copy of existing label files",
+  "known_duplicate_annotation_rows": 1,
+  "image_decoding_checked": false,
+  "cross_split_image_duplicates_checked": false
+}

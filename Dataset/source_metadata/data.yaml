@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['bike', 'bus', 'car', 'motor', 'person', 'rider', 'traffic light', 'traffic sign', 'train', 'truck']
+
+roboflow:
+  workspace: imrauls-workspace
+  project: bdd100k-detection
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/imrauls-workspace/bdd100k-detection/dataset/1
